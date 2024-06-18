@@ -14,21 +14,6 @@ body {
   letter-spacing: 2px;
   word-spacing: 4px;
 }
-@keyframes laserAnimation {
-  0% {
-    opacity: 0;
-    transform: scale(0);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(0);
-  }
-}
-
 #middle
 {
   justify-content: center;
@@ -232,6 +217,7 @@ ul {
   color: white;
   font-family: "just another hand";
   font-size: 29.2px;
+
   margin-bottom: 0px;
 }
 
@@ -269,6 +255,7 @@ ul {
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
+  /* width: 1005px;  */
   margin: 10px;
   box-shadow: 0 4px 8px rgba(22, 179, 53, 0.5);
   margin-bottom: 100px;
@@ -349,6 +336,7 @@ video {
 .blog img {
   width: 300px;
     height: 300px;
+    /* margin: 25% 1px 10px 25%; */
     padding-left: 25px;
     padding-top: 25%;
     padding-bottom: 25%;
@@ -439,13 +427,13 @@ video {
   margin-left: 5%;
   margin-right: 5%;
 }
-  
+
 .work_card {
   display: inline-block;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
-  width: 300px; 
+  width: 300px; /* Adjust as needed */
   margin: 10px;
   box-shadow: 0 4px 8px rgba(22, 179, 53, 0.5);
 }
@@ -455,11 +443,12 @@ video {
   justify-content: center;
   align-items: center;
   width: 90%;
-  height: 200px;
+  height: 200px; 
   margin-top: 10%;
   overflow: hidden;
 }
 
+/* Image styling */
 .project_img img {
   max-width: 100%;
   max-height: 100%;
@@ -488,6 +477,17 @@ video {
 
 #foot1 {
   margin: 5px 0;
+}
+@keyframes laserAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
 }
 
 }
