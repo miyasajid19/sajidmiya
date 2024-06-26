@@ -17,3 +17,13 @@ document.addEventListener('DOMContentLoaded', function() {
         laserPointer.style.display = 'block';
     });
 });
+let clickCount = 0;
+
+        document.addEventListener('click', () => {
+            clickCount++;
+            if (clickCount === 7) {
+                document.getElementById('secret-message').style.display = 'block';
+                document.getElementById('initial-message').style.display = 'none';
+
+            }
+        });
